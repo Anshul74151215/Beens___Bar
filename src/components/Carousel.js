@@ -6,15 +6,19 @@ export default function Carousel() {
     const [foodItem, setFoodItem] = useState([]);
 
     const loadData = async () => {
-        let response = await fetch("https://tame-tan-betta-cap.cyclic.app/api/foodData", {
-            method: "POST",
+        let response = await fetch(
+          "https://olive-caridea-suit.cyclic.app/api/foodData",
+          {
+            method: "GET",
             headers: {
-                'content-Type': 'application/json'
-            }
-        });
+              "content-Type": "application/json",
+            },
+          }
+        );
 
         response = await response.json();
         setFoodItem(response[0]);
+        
         setFoodCat(response[1]);
     }
 

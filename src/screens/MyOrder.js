@@ -6,7 +6,7 @@ export default function MyOrder() {
   const [orderData, setorderData] = useState({});
 
   const fetchMyOrder = async () => {
-    await fetch("https://tame-tan-betta-cap.cyclic.app/api/myOrderData", {
+    await fetch("https://olive-caridea-suit.cyclic.app/api/myOrderData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
