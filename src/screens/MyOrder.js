@@ -6,7 +6,7 @@ export default function MyOrder() {
   const [orderData, setorderData] = useState({});
 
   const fetchMyOrder = async () => {
-    await fetch("https://olive-caridea-suit.cyclic.app/api/myOrderData", {
+    await fetch("https://beans-bar.onrender.com/api/myOrderData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -7,7 +7,7 @@ export default function Carousel() {
 
     const loadData = async () => {
         let response = await fetch(
-          "https://olive-caridea-suit.cyclic.app/api/foodData",
+          "https://beans-bar.onrender.com/api/foodData",
           {
             method: "GET",
             headers: {

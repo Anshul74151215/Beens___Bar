@@ -7,7 +7,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      "https://olive-caridea-suit.cyclic.app/api/loginuser",
+      "https://beans-bar.onrender.com/api/loginuser",
       {
         method: "POST",
         headers: {

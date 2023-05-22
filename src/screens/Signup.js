@@ -13,7 +13,7 @@ export default function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      "https://olive-caridea-suit.cyclic.app/api/creatuser",
+      "https://beans-bar.onrender.com/api/creatuser",
       {
         method: "POST",
         headers: {
